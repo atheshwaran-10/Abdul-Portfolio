@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">Abdul Basith A</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#projects" class="nav_link active">Projects</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">Abdul Basith</span
+            ><br />Web Developer
+          </h1>
+          <a href="#contact" class="button"> Contact</a>
+          <a href="#resume" class="button"> Resume</a>
+      </div>
+
+        <div class="home_social">
+          
+          <a
+            href="#"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          
+          <a
+            href="#"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+          
+          <a
+            href="#"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="250"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          
+        </div>
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+          <img src="./assets/img/best1.png"/>
+        </div>
+    
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+
+        <div class="about_container bd_grid">
+          <div class="education-item">
+            <h3 class="education-title">B.E Computer Science And Engineering</h3>
+            <p class="education-info">PSNA College of Engineering And Technology, Dindigul, Tamil Nadu</p>
+            <p class="education-year">2021 - present</p>
+            <p class="education-cgpa">CGPA: 8.21</p>
+          </div>
+      
+          <div class="education-item">
+            <h3 class="education-title">Higher Secondary Education</h3>
+            <p class="education-info">KVT Matriculation Higher Secondary School, Madurai, Tamil Nadu</p>
+            <p class="education-year">2021</p>
+            <p class="education-percentage">Percentage: 92.33%</p>
+          </div>
+      
+          <div class="education-item">
+            <h3 class="education-title">SSLC</h3>
+            <p class="education-info">KVT Matriculation Higher Secondary School, Madurai, Tamil Nadu</p>
+            <p class="education-year">2019</p>
+            <p class="education-percentage">Percentage: 91.8%</p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid" style="display:grid; align-items: center;justify-content: center;justify-items: center;">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Without sharpen your weapon; standing on the battlefield would not
+              increase your chance of winning
+            </p>
+             <!-- SKILLS REACT-->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-react skill_icon"></i>
+                <span class="skill_name">React</span>
+              </div>
+              <div><span class="skill_percentage">60%</span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Html5</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-- SKILLS css -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-css3 skill_icon"></i>
+                <span class="skill_name">CSS3</span>
+              </div>
+
+              <div><span class="skill_percentage">80%</span></div>
+
+              <div class="skill_bar skill_css"></div>
+            </div>
+
+            <!-- SKILLS JS -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-javascript skill_icon"></i>
+                <span class="skill_name">JS</span>
+              </div>
+
+              <div><span class="skill_percentage">70%</span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+
+            <!-- SKILLS SQL -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-postgresql  skill_icon"></i>
+                <span class="skill_name"> SQL </span>
+              </div>
+
+              <div><span class="skill_percentage">80%</span></div>
+
+              <div class="skill_bar skill_sql"></div>
+            </div>
+
+             <!-- SKILLS JAVA -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-java skill_icon"></i>
+                <span class="skill_name">Java</span>
+              </div>
+              <div><span class="skill_percentage">70%</span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+             
+          </div>
+          <img src="./assets//img/reockett.png" alt="" data-aos="fade-right">
+          </div>
+
+
+          <div data-aos="fade-left" data-aos-delay="350">
+
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section class="work section" id="projects">
+        <h2 class="section-title" data-aos="fade-down">Projects</h2>
+        <div class="projects-container" data-aos="fade-down">
+          <div class="project">
+            <h2 class="project-header">Student Management System</h2>
+            <p class="project-category">Desktop Application Development</p>
+            <ul class="tech-stack">
+              <li>JavaFX</li>
+              <li>MS-ACCESS</li>
+              <li>JDBC</li>
+            </ul>
+            <p class="project-description">It includes features such as student registration,
+            attendance tracking, grade management.It provides framework for developing a user-friendly
+            application.
+          </p>
+          </div>
+          <div class="project">
+            <h2 class="project-header">FUEL(Food to biogas Upcycling
+            Energy Link)</h2>
+            <p class="project-category">Mobile App</p>
+            <ul class="tech-stack">
+              <li>Android Studio</li>
+              <li>Java</li>
+              <li>MongoDB</li>
+            </ul>
+            <p class="project-description">The FUEL application serves as a bridge between
+            hotels and biogas plants, focusing on the upcycling of
+            waste foods to produce biogas.</p>
+          
+          </div>
+          <div class="project">
+            <h2 class="project-header">Gamified Learning Platform</h2>
+            <p class="project-category">Product Development</p>
+            <ul class="tech-stack">
+              <li>React.JS</li>
+              <li>Postgresql</li>
+              <li>Tailwind CSS</li>
+            </ul>
+            <p class="project-description">A Gamified E-Learning Platform specialized for the PWD's and used advanced technologies incorporated some unique features like Voice Recognition</p>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+          <form action="#" class="contact_form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="250"
+            />
+            <input
+              type="mail"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            ></textarea>
+
+            <input
+              type="button"
+              value="Send"
+              class="control_button button"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">Abdul Basith</p>
+
+        <div class="footer_socials">
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="250"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="450"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <p data-aos="fade-down" data-aos-delay="650">
+          &#169; 2024 copyright all right reserved
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
